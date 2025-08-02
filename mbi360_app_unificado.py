@@ -69,7 +69,6 @@ def ejecutar_test_condiciones_clinicas():
 # ---- APP PRINCIPAL ----
 
 import streamlit as st
-from modulo_epigenetico import ejecutar_test_epigenetico
 from modulo_condiciones import ejecutar_test_condiciones_clinicas
 
 st.set_page_config(page_title="MBI 360°", page_icon="🌀", layout="centered")
